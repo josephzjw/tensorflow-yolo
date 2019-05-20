@@ -1,4 +1,7 @@
 import sys
+import os
+
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 sys.path.append('./')
 
